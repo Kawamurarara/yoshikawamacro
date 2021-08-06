@@ -60,7 +60,7 @@ Y2 = [workers(β2, μ, i)/f_jobs(i) for i in X]
 line1 = ax.scatter(X, Y1, marker='.', label = "β ≃ -0.05")
 line2 = ax.scatter(X, Y2, marker='.', label = "β ≃ -0.02")
 
-ax.set_title("総需要の水準が極端に高い、あるいは低いときの生産性(職の質)の分布")
+ax.set_title("存在する「職」の内、実際に雇用者によって占められる割合")
 ax.set_xlabel("生産性の水準")
 ax.set_ylabel("労\n働\n者\n数", rotation=0, va='center')
 ax.set_xlim(0,200)
