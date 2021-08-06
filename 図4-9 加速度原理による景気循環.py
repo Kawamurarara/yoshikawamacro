@@ -78,6 +78,7 @@ ax1.set_xticks(t)
 ax2.set_ylim(-200, 800)
 ax2.set_xlim(-2, 15)
 ax2.set_xticks(t)
+ax2.set_xlabel("加速度原理による景気循環")
 
 #表の作成
 row_labels=["A", "Y", "C", "ΔY", "I"]
