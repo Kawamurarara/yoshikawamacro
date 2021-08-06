@@ -62,7 +62,7 @@ line2 = ax.scatter(X, Y2, marker='.', label = "β ≃ -0.02")
 
 ax.set_title("存在する「職」の内、実際に雇用者によって占められる割合")
 ax.set_xlabel("生産性の水準")
-ax.set_ylabel("労\n働\n者\n数", rotation=0, va='center')
+ax.set_ylabel("雇\n用\nの\n割\n合", rotation=0, va='center')
 ax.set_xlim(0,200)
 ax.legend()
 plt.show()
