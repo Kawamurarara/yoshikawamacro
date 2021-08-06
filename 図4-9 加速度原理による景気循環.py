@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import japanize_matplotlib #日本語を有効化するモジュールをインポート
-from scipy.interpolate import make_interp_spline
 plt.rcParams['xtick.direction'] = 'in' #x軸の目盛線が内向き('in')か外向き('out')か双方向か('inout')
 plt.rcParams['ytick.direction'] = 'in' #y軸の目盛線が内向き('in')か外向き('out')か双方向か('inout')
 plt.rcParams['xtick.major.width'] = 1 #x軸主目盛り線の線幅
